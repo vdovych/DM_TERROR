@@ -1,6 +1,8 @@
 Data processing project
 
 Using data from Global Terrorism Database https://www.start.umd.edu/gtd/
+From 2014-2018
+
 Trying to predict two things
 
 First - number of casualties given basic info about attack, that is possible to gather before the attack happens.
