@@ -12,3 +12,8 @@ Second - probability of an attack in a given place at a given date.
 Going to update readme with notes of interesting stuff as I find it
 
 For example, half of all attacks have 0 casualties and half of all attacks are bombings, interesting coincidence, gonna check how these halves intersect
+
+Upd. Half of bombings have no casualties
+
+Also there have been 1115 succesful bombings that have 0 casualties and 0 property damage
+
