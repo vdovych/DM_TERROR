@@ -17,6 +17,22 @@ Upd. Half of bombings have no casualties
 
 Also there have been 1115 succesful bombings that have 0 casualties and 0 property damage
 
+###############################################################################################################
+
+Doing survey on data I found 2 most popular studies and read through them
+
+https://towardsdatascience.com/global-terrorism-database-with-a-bayesian-inference-7d6e23ae5024
+
+https://www.kaggle.com/laurenstc/global-terrorism-analysis
+
+In short these works are focused on analyzing the data and finding general trends. There is already a lot of visualisation and because of it I decided not to focus on it as there already are great works done before.
+
+Instead I chose to predict casualties of specific attacks as I did not see works done on it.
+
+As I later found out there probably are no works on it as it's not possible to predict it using only GTD data
+
+###############################################################################################################
+
 By doing all the processing I came to the conclusion that it is not possible to achieve adequate results with this data as terrorist attacks are too random and unique to predict outcome based only on general data
 The project can be expanded with incorporation of supporting dataset such as fullyear holiday schedule and population density, but I did not manage to find those for general cases,for example only population density data I found was for some countries and major cities but it wasn't feasible to collect all of them and get global data. There maybe exists global dataset but I failed to find it.
 
