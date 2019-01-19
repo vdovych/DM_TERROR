@@ -17,3 +17,42 @@ Upd. Half of bombings have no casualties
 
 Also there have been 1115 succesful bombings that have 0 casualties and 0 property damage
 
+By doing all the processing I came to the conclusion that it is not possible to achieve adequate results with this data as terrorist attacks are too random and unique to predict outcome based only on general data
+The project can be expanded with incorporation of supporting dataset such as fullyear holiday schedule and population density, but I did not manage to find those for general cases,for example only population density data I found was for some countries and major cities but it wasn't feasible to collect all of them and get global data. There maybe exists global dataset but I failed to find it.
+
+With data I had I did stuff I learned during semester to at least maximize results.
+Next is cut out from poster as there is already most of my work explained
+
+After analyzing the whole dataset I stripped
+it from all columns that have no value to the
+project. All longtext column (for example:
+summary), subcolumns that have most of
+values missing(weapontype_3), unrelated to
+attack data(eventid, dbsourse) and the data
+which cannot be gathered prior to an
+attack(claim. Not the columns with number
+of casualties though as it is what will be
+predicted)
+
+Then i proceeded with cleaning the missing
+values in data. As the dataset was quite large
+it seemed reasonable to drop all the rows
+with missing values as it was only a small
+portion of data and it would speed up the
+calculations
+
+Using one-hot encoding for categorical variables I end
+up with unreasonable amount of columns so I used 2
+approaches of Feature Selection
+
+First idea was to apply PCA and Forward
+Stepwise Selection as they are powerful and
+simple to use methods. It allowed to shorten
+dataset to 10% of initial size and in theory it gives
+as accurate predictions as starting dataset
+
+Another thing i done is manual picking of columns based on my
+subjective opinion of their relevance. The categorical columns with
+hundreds of possible values as well as some unimportant binary
+variables were dropped. Interestingly, final accuracy was higher than
+of a first FA method.
